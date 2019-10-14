@@ -1,0 +1,32 @@
+{
+    "name": "clear/test",
+    "description": "Scan URLs FROM A CSV FILE AND REPORT INACCESSIBLE URLs",
+    "keywords": ["url", "scanner", "csv"],
+    "homepage": "https://xueyuanjun.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunqiang",
+            "email": "yaojinbu@163.com"
+        }
+    ],
+    "support": {
+        "email": "yaojinbu@163.com"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "clear\\test\\": "src/"
+        }
+    }
+}
